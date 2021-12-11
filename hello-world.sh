@@ -1,6 +1,7 @@
 #!/bin/sh
 
+APP_PORT="${PORT:-8080}"
 while true;
 do
-    ./response.sh | nc -l -p 8080
+    ./response.sh | nc -l -p ${APP_PORT}
 done
