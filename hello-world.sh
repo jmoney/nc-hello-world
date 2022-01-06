@@ -1,6 +1,7 @@
 #!/bin/sh
 
 set -x
+
 APP_PORT="${PORT:-8080}"
 while true;
 do
